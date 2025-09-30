@@ -5,7 +5,6 @@ data/*.parquet
 logs/*.log
 *.log
 .DS_Store
-output/*.png
 dbt/target/
 dbt/logs/
 dbt/manifest.json
