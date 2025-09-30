@@ -1,0 +1,16 @@
+# .gitignore
+data/*.parquet
+*.duckdb
+*.db
+logs/*.log
+*.log
+.DS_Store
+output/*.png
+dbt/target/
+dbt/logs/
+dbt/manifest.json
+dbt/run_results.json
+dbt/graph.gpickle
+dbt/graph_summary.json
+dbt/partial_parse.msgpack
+dbt/.user.yml
